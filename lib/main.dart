@@ -291,7 +291,7 @@ class _LoginPageState extends State<LoginPage> {
                 child: Text('Login', style: TextStyle(fontSize: 16 * scaleFactor,fontWeight: FontWeight.bold, color: Colors.white,)), // Adjust button text size
                 style: ElevatedButton.styleFrom(
                   padding: EdgeInsets.symmetric(horizontal: 32 * scaleFactor, vertical: 16 * scaleFactor),
-                  primary: Colors.teal, // Button color
+                  backgroundColor : Colors.teal, // Button color
                 ),
               ),
             ],
